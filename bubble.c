@@ -16,6 +16,7 @@ void bubblesort(int a[], int n){
                 flag++;
             }
         }
+
         if(flag == 0)
         break;
     }
@@ -45,5 +46,4 @@ int main()
     bubblesort(a,n);
 
     return 0;
-
 }
